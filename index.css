@@ -1,0 +1,159 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+.getStart {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background: url(city-1209105_1920.jpg) 0 0 / cover;
+}
+.getStart .content {
+  padding: 10px;
+  flex: 0 1 50%;
+  color: #fff;
+}
+.getStart .content h1, .getStart .content h2 {
+  margin: 15px 0;
+}
+.getStart .content h1 {
+  font-size: 2.6rem;
+}
+.getStart .content h2 {
+  font-size: 2rem;
+}
+.getStart .content p {
+  marign: 25px 0;
+  font-size: 1.4rem;
+}
+.getStart .content .btn {
+  width: 120px;
+}
+.getStart .card {
+  min-width: 240px;
+  border: 0 solid red;
+  border-bottom-width: 2px;
+  background: #fff;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.getStart .card span {
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.getStart .card input, .getStart .card textarea {
+  color: #D8D8D8;
+  margin: 5px 0;
+  padding: 8px;
+  font-size: 1.2rem;
+  border: 1px #D8D8D8 solid;
+}
+.getStart .card textarea {
+  min-height: 60px;
+}
+.getStart .card .btn {
+  margin-top: 5px;
+}
+
+.btn {
+  text-align: center;
+  padding: 8px 0;
+  background: red;
+  cursor: pointer;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .getStart {
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 50px 20px;
+  }
+  .getStart .content, .getStart .card {
+    flex: 1 1 100%;
+  }
+}
+
+
+/*
+html
+  font-size: 10px
+body
+  margin: 0
+
+.getStart
+  width: 100vw
+  height: 100vh
+  padding: 50px
+  display: flex
+  align-items: center
+  justify-content: center
+  box-sizing: border-box
+  .content
+    padding: 10px
+    flex: 0 1 50%
+    color: #fff
+    h1,h2
+      margin: 15px 0
+    h1
+      font-size: 2.6rem
+    h2
+      font-size: 2rem
+    p
+      marign: 25px 0
+      font-size: 1.4rem
+    .btn
+      width: 120px
+  .card
+    min-width: 240px
+    border: 0 solid red
+    border-bottom-width: 2px
+    background: #fff
+    padding: 25px 20px
+    box-sizing: border-box
+    display: flex
+    flex-direction: column
+    span
+      font-weight: bold
+      font-size: 1.6rem
+      text-align: center
+    input, textarea
+      color: #D8D8D8
+      margin: 5px 0
+      padding: 8px
+      font-size: 1.2rem
+      border: 1px #D8D8D8 solid
+    textarea
+      min-height: 60px
+      
+    .btn
+      margin-top: 5px
+    
+
+.btn
+  text-align: center
+  padding: 8px 0
+  background: red
+  cursor: pointer
+  color: #fff
+  
+ 
+@media (max-width: 600px)
+  .getStart
+    flex-wrap: wrap
+    align-content: flex-start
+    padding: 50px 20px
+    .content, .card
+      flex: 1 1 100%
+*/
